@@ -8,3 +8,6 @@
 -- e.g. vim.api.nvim_del_augroup_by_name("lazyvim_wrap_spell")
 
 require("catppuccin").setup({ auto_integrations = true })
+-- require("snacks").picker.picker_layouts({ preset = "sidebar", layout = { position = "right" } })
+-- require("snacks").picker.picker_layouts({ layout = { layout = { position = "right" } } })
+-- require("snacks").picker.picker_layouts({ preset = "sidebar", layout = { position = "right" } })
