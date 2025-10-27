@@ -22,7 +22,7 @@ return {
       },
       picker = {
         hidden = true,
-        ignored = true,
+        -- ignored = true,
 
         sources = {
           explorer = {
