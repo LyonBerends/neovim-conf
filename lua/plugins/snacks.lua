@@ -1,4 +1,3 @@
---Snacks = require("snacks")
 return {
 
   {
@@ -23,7 +22,6 @@ return {
       picker = {
         hidden = true,
         -- ignored = true,
-
         sources = {
           explorer = {
             layout = { layout = { position = "right" } },
