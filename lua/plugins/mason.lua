@@ -1,0 +1,33 @@
+return {
+  {
+    "mason-org/mason.nvim",
+    opts = {
+      ensure_installed = {
+        "clangd",
+        "cmakelang",
+        "cmakelint",
+        "codelldb",
+        "docker-compose-language-service",
+        "dockerfile-language-server",
+        "hadolint",
+        "jdtls",
+        "json-lsp",
+        "lua-language-server",
+        "markdown-toc",
+        "markdownlint-cli2",
+        "marksman",
+        "neocmakelsp",
+        "prettier",
+        "pyright",
+        "ruff",
+        "shfmt",
+        "stylua",
+        -- "svelte-language-server ",
+        "tailwindcss-language-server",
+        "tree-sitter-cli",
+        "vtsls",
+        "yaml-language-server",
+      },
+    },
+  },
+}
