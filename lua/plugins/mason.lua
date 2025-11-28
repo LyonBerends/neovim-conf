@@ -19,7 +19,7 @@ return {
         "neocmakelsp",
         "prettier",
         "pyright",
-        "ruff",
+        -- "ruff",
         "shfmt",
         "stylua",
         -- "svelte-language-server ",

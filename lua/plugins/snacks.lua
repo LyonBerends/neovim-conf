@@ -21,7 +21,7 @@ return {
       },
       picker = {
         hidden = true,
-        -- ignored = true,
+        ignored = false,
         sources = {
           explorer = {
             layout = { layout = { position = "right" } },
