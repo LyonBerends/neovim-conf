@@ -11,3 +11,9 @@ require("catppuccin").setup({ auto_integrations = true })
 -- require("snacks").picker.picker_layouts({ preset = "sidebar", layout = { position = "right" } })
 -- require("snacks").picker.picker_layouts({ layout = { layout = { position = "right" } } })
 -- require("snacks").picker.picker_layouts({ preset = "sidebar", layout = { position = "right" } })
+
+vim.filetype.add({
+  extension = {
+    tpp = "cpp",
+  },
+})
